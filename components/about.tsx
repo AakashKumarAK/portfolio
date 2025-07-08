@@ -57,7 +57,7 @@ export default function About() {
                       viewport={{ once: true }}
                       className="text-lg text-muted-foreground leading-relaxed"
                     >
-                      Energetic and eager candidate with a passion for software development, proficient in Java and
+                      Energetic and eager candidate with a passion for software development, proficient in Next.js and
                       React.js. A quick learner with a knack for problem-solving, ready to contribute effectively to
                       developing software projects and grow within a dynamic team environment.
                     </motion.p>
@@ -66,15 +66,15 @@ export default function About() {
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ duration: 0.8, delay: 1 }}
                       viewport={{ once: true }}
-                      className="grid grid-cols-2 gap-4 text-sm"
+                      className="grid grid-cols-2  gap-6 text-sm"
                     >
                       <div>
                         <span className="font-semibold text-blue-500">Email:</span>
                         <p className="text-muted-foreground">aakashkumar897340@gmail.com</p>
                       </div>
-                      <div>
+                      <div className="ml-2">
                         <span className="font-semibold text-blue-500">Phone:</span>
-                        <p className="text-muted-foreground">+91 7904273681</p>
+                        <p className="text-muted-foreground ">+91 7904273681</p>
                       </div>
                     </motion.div>
                   </div>
